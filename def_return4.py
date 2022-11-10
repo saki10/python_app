@@ -25,3 +25,7 @@ def Grades (test) :
         return("D")
 test = 70
 print(test,"点は" ,Grades(80))
+
+score = [75,80,90,100] 
+for total in score :
+    print(total,"点は",Grades(total))
